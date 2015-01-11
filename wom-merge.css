@@ -1,0 +1,38 @@
+/* The merge table */
+#womlist {clear: both; table-layout: fixed; width: 100%}
+#womlist th {width: 32%; font-size: 110%}
+#womlist td {vertical-align: top; border-bottom: 1px dotted #ccc; position: relative}
+#womlist input {margin-right: 1em}
+/* The cell holding the option key */
+.womkey    {padding-left: 1em;}
+.womkey span {font-weight: bold}
+/* The sample block of color */
+.womcolor  {width: 8em; height: 1.5em; display: inline-block; vertical-align: middle; box-shadow: 0 0 1px gray}
+/* The cell holding a CSS option */
+.womcss    {box-shadow: 0 0 2px blue; font-size: 90%; height: 10ex; overflow: auto; word-wrap: break-word}
+/* The block holding the sample CSS */
+.womshowcss {position: absolute; left: -999em; border: 1px solid gray; background-color: white; color: #333; padding: 5px; z-index: 1; max-width: 100%; font-size: 115%}
+/* The link for the sample CSS */
+.wominfo {margin-left: -0.6em}
+.wominfo:hover .womshowcss {left: auto;}
+/* The block of sample CSS */
+.womsamplecss {border: 1px dotted gray; word-wrap: break-word}
+/* The cell of a selected option */
+.womselected {background-color: rgba(160, 210, 160, 0.4)}
+/* The row containing a site-specific option */
+.wombackup {background-color: rgba(150, 150, 150, 0.2)}
+/* The blocks on the left */
+.womleft {float: left; max-width: 49%}
+/* The blocks on the right */
+.womright {float: right; max-width: 49%}
+/* The block holding the buttons */
+.wom-holder {max-width: 48%; padding: 5px 0}
+/* The buttons to select groups of options */
+.wom-button.button {box-shadow: -1px -1px 2px inset; margin-left: 2px;}
+/* highlight for error messages */
+.error {padding: 5px; background-color: rgba(250, 100, 100, 0.2); font-weight: bold; border: 1px solid red;}
+
+/* jQuery UI classes */
+.ui-accordion .ui-accordion-header {cursor: pointer; margin: 2px 0 0; padding: 0.5em 0.5em 0.5em 0.7em; background-color: rgba(15, 15, 15, 0.1); border: 1px solid #aaaaaa;}
+.ui-accordion .ui-accordion-content {padding: 0.5em 0.2em;}
+.ui-accordion .ui-accordion-header-active {background-color: rgba(15, 15, 85, 0.2);}
